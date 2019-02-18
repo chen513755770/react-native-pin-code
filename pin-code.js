@@ -196,6 +196,7 @@ class CodePin extends Component {
           returnKeyType={'done'}
           autoCapitalize={'sentences'}
           autoCorrect={false}
+          keyboardType='number-pad'
           autoFocus={
             (id === 0 &&
               this.state.edit === null &&
